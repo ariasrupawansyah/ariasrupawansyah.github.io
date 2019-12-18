@@ -1,0 +1,174 @@
+body{
+  background-color: lightgray;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+    background-image: url('../assets/image/bg.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 620px;
+}
+
+.jumbotron .container {
+    position: relative;
+    top: 50%;
+    transform: translateY(-30%);
+}
+
+.jumbotron .quotes{
+  width: 100%;
+  max-width: 100%;
+  text-shadow: 1px 1px 1px #000;
+  font-size: 30px;
+}
+
+/* Navbar */
+
+.navbar {
+    transition: .3s;
+    font-variant: small-caps;
+    font-size: .8rem; 
+}
+
+.nav-item {
+    transition: .3s;
+}
+
+nav.navbar.shrink {
+  max-height: 900px;
+  background-color: rgba(0,0,0,.5)!important;
+}
+
+nav.shrink a {
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+  font-size: 15px;
+}
+
+nav.shrink .navbar-brand {
+  font-size: 15px;
+}
+
+nav.shrink .navbar-toggle {
+  padding: 4px 5px;
+  margin: 8px 15px 8px 0;
+}
+
+.add{
+  background-color:#ff0;
+}
+
+/* Profile */
+
+.propile{
+  padding-top: 60px;
+}
+
+.card img{
+  height: 230px;
+}
+
+.card .foto-profile{
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  margin-top: -80px;
+}
+
+.card-body h3{
+  text-align: center;
+  margin-top: -5px;
+  padding-bottom: 10px !important;
+}
+
+.card-text{
+  font-size: 15px;
+  line-height: 25px;
+  text-align: justify;
+}
+
+.list-group{
+  margin-top: 20px;
+}
+
+/* Skill page */
+
+.skills-page{
+  margin-top: 330px;
+  padding-top: 130px;
+}
+
+/* History page */
+
+.history{
+  margin-top: 80px;
+  padding-top: .1rem;
+  overflow: hidden;
+}
+
+.history .history-head{
+  border-radius: 14px;
+  box-shadow: 0px 0px 15px rgba(100,100,100,.6);
+}
+
+/* Portfolio page */
+
+.portfolio{
+  margin-top: 80px;
+  padding-top: .1rem;
+}
+
+/* contact me */
+
+.contact{
+  margin-top: 50px;
+  padding-top: 40px;
+}
+
+/*Dekstop*/
+@media (min-width: 992px) {
+  
+  .navbar{
+    font-size: 1.2rem;
+  }
+
+  .jumbotron {
+    height: 630px;
+  }
+  
+  .jumbotron .quotes{
+    font-size: 45px;
+  }
+  
+  .propile{
+    width: 70%;
+    height: 300px;
+  }
+
+  .card img{
+    height: 255px;
+  }
+
+  .card .foto-profile{
+    width: 200px;
+    height: 200px;
+    margin-top: -110px;
+    margin-left: 50px;
+  }
+
+  .card-body h3{
+    text-align: left;
+  }
+
+  .list-group{
+    margin-top: -86px;
+  }
+
+  table .table{
+    width: 100%;
+  }
+
+}
